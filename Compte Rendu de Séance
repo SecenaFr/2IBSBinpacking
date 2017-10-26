@@ -1,0 +1,51 @@
+Découverte de la recherche
+
+
+ 
+TD1 : Jeudi 28 Septembre 2017
+
+Composition du groupe :
+-	Fabien BASSET
+-	Sébastien COHEN (Chef de projet)
+-	Maxime GAUTIER
+Langage de programmation utilisé : JAVA
+-	Facilité de développement, connaissance de base pour chacun des membres du groupe.
+Suivi du projet : GIT
+-	Permet à chacun des membres de suivre l’avancée du projet et le dépôt de documentation ou de fichier (pdf, web, …)
+Méthode de travail lors du TD1 :
+-	Chacun des membres se renseigne sur des méthodes pouvant résoudre la problématique 1 (Rangement de n pièces 2D dans une boite 2D) en gardant en mémoire l’extrapolation future au rangement 2D.
+Méthodes ou modèles de rangement analysés au cours de la séance :
+-	Formulation de Kantorovich
+-	Modèle de Gilmore et Gomory
+-	Programmation linéaire
+-	Programmation linéaire en nombre entier
+-	Résolution "Guillotine"
+-	Algorithme des rectangles maximaux
+Source :
+http://clb.demon.fi/files/RectangleBinPack.pdf
+https://www.gerad.ca/colloques/ColumnGeneration2008/slides/Carvalho.pdf
+https://www.codeproject.com/Articles/210979/Fast-optimizing-rectangle-packing-algorithm-for-bu
+https://en.wikipedia.org/wiki/Guillotine_problem
+https://tel.archives-ouvertes.fr/tel-00661534/document
+
+
+ 
+TD2 : Jeudi 12 Octobre 2017
+
+Méthode de travail du TD2 :
+-	Chacun des membres du projet travail sur  un type d’algorithme : L’algorithme des rectangles maximaux, L’algorithme de la guillotine, L’algorithme Skyline.
+
+Ne pas utiliser l’algorithme Shelf pas assez performant.
+(Cf : http://clb.demon.fi/files/RectangleBinPack.pdf Page 31)
+
+Source du TD2 :
+http://www.sciencedirect.com/science/article/pii/S0377221711005510
+ 
+ 
+ 
+TD3 : Jeudi 26 Octobre 2017
+
+Méthode de travail du TD3 :
+-	Fabien : Ecriture du code Java des classes Volumes, des fonctions de tri...
+-	Maxime : Ecriture de l’algorithme et la fonction java de la génération des volumes aléatoirement.
+-	Sébastien : Ecriture de l’algorithme trouver la Skyline des rectangles.
