@@ -1,0 +1,45 @@
+#include<iostream>
+using namespace std;
+class sortbubble
+{
+  public:
+  void classer(int table[][2],int i)
+  {
+  int temp0 = table[i][0],temp1=table[i][1];
+   table [i][0]=table[i+1][0];
+   table [i][1]=table[i+1][1];
+   table [i+1][0]=temp0;
+   table [i+1][1]=temp1;
+  }
+};
+int main()
+{
+  ios::sync_with_stdio(false);
+  sortbubble sort;
+  int nb ;
+  cin>>nb;
+  int table[nb][2];
+  for (int i= 0 ; i<nb;i++)
+  cin>>table[i][0]>>table[i][1];
+  for (int n= 1 ; n<=((nb*nb-nb)/2);n++)
+  {
+  int x = 0 ;
+   for (int i = 0 ; i < nb-1 ; i++)
+   {
+     if (table[i][1]>table[i+1][1])
+     {
+       sort.classer(table,i);
+       x++;
+     }
+     else if ( table[i][1]==table[i+1][1])
+       if (table[i][0]>table[i+1][0])
+       {
+        sort.classer(table,i);
+        x++;
+       }
+   }
+  if (x==0) break;
+  }
+  for (int i=0;i<nb;i++)
+  cout<<table[i][0]<<" "<<table[i][1]<<'\n';
+}
